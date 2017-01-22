@@ -53,40 +53,29 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #paperarea { min-height: 120px; display: none; }
 #paperarea .keyarea { border: 2px solid #009900; border-top: 0; }
 #paperarea .keyarea.art { display: block; height: auto; border: 0; font-family: Ubuntu, Arial; padding: 0; margin: 0; }
-#paperarea .artwallet .papersvg { width: 486px; height: 261px; border: 0; margin: 0; padding: 0; left: 0; }
+#paperarea .artwallet .papersvg { width: 589px;  border: 0; margin: 0; padding: 0; left: 0; }
 #paperarea .artwallet .qrcode_public { top: 52px; left: 17px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
 		                                padding: 5px 5px 2px 5px; } 
 #paperarea .artwallet .qrcode_private { top: 104px; left: 360px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
 		                                padding: 5px 5px 2px 5px; }
 #paperarea .artwallet .btcaddress  
 {
-	position: absolute; top: 240px; left: 139px; z-index: 100; font-size: 10px; background-color: transparent;
-	font-weight:bold; color: #000000; margin: 0;
-		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
-		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
-		-ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
-		-o-transform-origin:top left;      -o-transform:rotate(-90deg);
-		transform-origin:top left;         transform:rotate(-90deg);
+	position: absolute; top: 24px; left: 29px; z-index: 100; font-size: 11px; background-color: transparent;
+	 color: #000000; margin: 0;       
+	 font-family: monospace;
 } 
 #paperarea .artwallet .btcprivwif  
 {
-	position: absolute; top: 236px; left: 346px; z-index: 100; font-size: 7px; background-color: transparent;
-	font-weight:bold; color: #000000; margin: 0;  
-		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
-		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
-		-ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
-		-o-transform-origin:top left;      -o-transform:rotate(-90deg);
-		transform-origin:top left;         transform:rotate(-90deg);
+	position: absolute; top: 205px; left: 372px; z-index: 100; font-size: 11px; background-color: transparent;
+	 color: #000000; margin: 0; 
+	 text-align: right; font-family: monospace;
 }
 #paperarea .artwallet .btcencryptedkey
 {
-	position: absolute; top: 174px; left: 332px; z-index: 100; font-size: 8px; background-color: transparent;
-	font-weight:bold; color: #000000; margin: 0;  
-		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
-		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
-		-ms-transform-origin:top left;     -ms-transform:rotate(-90deg);
-		-o-transform-origin:top left;      -o-transform:rotate(-90deg);
-		transform-origin:top left;         transform:rotate(-90deg);
+	position: absolute; top: 205px; left: 372px; z-index: 100; font-size: 11px; background-color: transparent;
+	 color: #000000; margin: 0; 
+	 text-align: right;
+	 font-family: monospace;
 }
 #bulkarea .body { padding: 5px 0 0 0; }
 #bulkarea .format { font-style: italic; font-size: 90%; }
