@@ -1,36 +1,24 @@
-# bitaddress.org
-JavaScript Client-Side Bitcoin Wallet Generator
+# bitaddress.org Derivative 
 
-Now Bitcoin addresses and their corresponding private key can be conveniently 
-generated in a web browser.
+Instead of regular money that people usually receive in red envelopes, I thought it would be cool to surprise my friends with Bitcoin instead! It's much more memorable of me personally and is almost as useful as cash.
 
-The bitaddress.org project provides an all-in-one HTML document with embedded
-JavaScript/Css/Images. The JavaScript is readable not minified and contains no
-XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the 
-JavaScript locally and trust that the JavaScript did not change after being 
-loaded. 
+I made the following design and adapted it to a Bitcoin paper wallet generator. The dimensions are exactly those of a US Dollar, enabling the use of existing red envelopes. 
+![image of bitcoin wallet]
+(sampleWallet.png)
 
-Here is a link to the BitcoinTalk.org forum topic discussing this project:
-https://bitcointalk.org/index.php?topic=43496.0
+Original art painting by Liu ZhiKun, 2013. 
 
+How to generate your own wallets:
 
-Please send DONATIONS for this project to Bitcoin Address: 
-1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+1. Click "Clone or download" in Github. 
+2. Extract archive 
+3. Run "bitaddress.org.html" to generate offline keys 
+4. Check the box that says "BIP38 Encrypt?". I did not adjust the javascript to format non-encrypted wallets correctly. 
 
 
-END USER NOTES:
+How to replace the rooster image: The image of the rooster is encoded as a base64-encoded PNG in two different files. See commit history. Warning: 1MB text files. 
 
- 1) For Bulk Wallet I recommended using Google Chrome, it's the fastest.
-
- 2) Requires IE9+, Firefox, Chrome or sufficient JavaScript support.
-
- 3) Mobile Safari only works with iPhone4 or newer devices.
-    Older devices timeout while executing JavaScript.
-
- 4) DO NOT use Opera Mini it renders JavaScript output server side, therefore
-    they might record the private key you generated.
-
- 5) BIP38 most likely will not work on mobile devices due to hardware limitations.
+Comment on Reddit: https://www.reddit.com/r/Bitcoin/comments/5puyew/put_something_different_in_those_chinese_new_year/
 
 
 Notice of Copyrights and Licenses:
